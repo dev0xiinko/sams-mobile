@@ -3,8 +3,9 @@ import * as SecureStore from 'expo-secure-store';
 // Update this to your backend URL
 // For Android emulator use: http://10.0.2.2:3000/api
 // For iOS simulator use: http://localhost:3000/api
-// For physical device use your computer's IP: http://192.168.1.13:3000/api
-const API_URL = 'http://192.168.1.13:3000/api';
+// For physical device use your computer's IP: http://192.168.1.32:3000/api
+// Using localtunnel for mobile access:
+const API_URL = 'https://beige-worlds-fly.loca.lt/api';
 
 interface ApiResponse<T = unknown> {
   success: boolean;
